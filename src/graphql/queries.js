@@ -6,7 +6,7 @@ export const getSpot = /* GraphQL */ `
     getSpot(id: $id) {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
@@ -24,7 +24,7 @@ export const listSpots = /* GraphQL */ `
       items {
         id
         name
-        business_name
+        businessname
         email
         description
         createdAt

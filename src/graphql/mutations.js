@@ -9,7 +9,7 @@ export const createSpot = /* GraphQL */ `
     createSpot(input: $input, condition: $condition) {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
@@ -25,7 +25,7 @@ export const updateSpot = /* GraphQL */ `
     updateSpot(input: $input, condition: $condition) {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
@@ -41,7 +41,7 @@ export const deleteSpot = /* GraphQL */ `
     deleteSpot(input: $input, condition: $condition) {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt

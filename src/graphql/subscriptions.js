@@ -6,7 +6,7 @@ export const onCreateSpot = /* GraphQL */ `
     onCreateSpot {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
@@ -19,7 +19,7 @@ export const onUpdateSpot = /* GraphQL */ `
     onUpdateSpot {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
@@ -32,7 +32,7 @@ export const onDeleteSpot = /* GraphQL */ `
     onDeleteSpot {
       id
       name
-      business_name
+      businessname
       email
       description
       createdAt
