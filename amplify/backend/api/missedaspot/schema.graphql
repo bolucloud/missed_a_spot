@@ -1,0 +1,7 @@
+type Spot @model {
+  id: ID!
+  name: String!
+  business_name: String!
+  email: String!
+  description: String
+}
