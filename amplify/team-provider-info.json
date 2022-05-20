@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-missedaspot-dev-204017-authRole",
+      "UnauthRoleArn": "arn:aws:iam::678235515867:role/amplify-missedaspot-dev-204017-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::678235515867:role/amplify-missedaspot-dev-204017-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-missedaspot-dev-204017-deployment",
+      "UnauthRoleName": "amplify-missedaspot-dev-204017-unauthRole",
+      "StackName": "amplify-missedaspot-dev-204017",
+      "StackId": "arn:aws:cloudformation:us-east-2:678235515867:stack/amplify-missedaspot-dev-204017/cf6e0140-d7dd-11ec-89d7-061327210baa",
+      "AmplifyAppId": "d1catrtt6xi84y"
+    },
+    "categories": {
+      "auth": {
+        "missedaspote2158c8d": {}
+      }
+    }
+  }
+}
