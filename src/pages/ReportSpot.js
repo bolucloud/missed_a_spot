@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import { createSpot as createSpotMutation } from "../graphql/mutations";
 import { listSpots } from "../graphql/queries";
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
+import Amplify from "aws-amplify";
+import config from "../aws-exports";
+Amplify.configure(config);
 
 const initialFormState = {
   name: "",
