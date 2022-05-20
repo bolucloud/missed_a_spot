@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import { createSpot as createSpotMutation } from "../graphql/mutations";
 import { listSpots } from "../graphql/queries";
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 const initialFormState = {
   name: "",
-  business_name: "",
+  businessname: "",
   email: "",
   description: "",
 };
@@ -43,10 +44,10 @@ function ReportSpot() {
       />
       <input
         onChange={(e) =>
-          setFormData({ ...formData, business_name: e.target.value })
+          setFormData({ ...formData, businessname: e.target.value })
         }
         placeholder="business name"
-        value={formData.business_name}
+        value={formData.businessname}
       />
       <input
         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
